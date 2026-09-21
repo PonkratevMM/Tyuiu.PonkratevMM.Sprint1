@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.PonkratevMM.Sprint1.Task0.V6.Lib\Tyuiu.PonkratevMM.Sprint1.Task0.V6.Lib.csproj" />
     <ProjectReference Include="..\Tyuiu.PonkratevMM.Sprint1.Task1.V0.Lib\Tyuiu.PonkratevMM.Sprint1.Task0.V6.Lib.csproj" />
     <ProjectReference Include="..\Tyuiu.PonkratevMM.Sprint1.Task1.V6.Lib\Tyuiu.PonkratevMM.Sprint1.Task0.V6.Lib.csproj" />
   </ItemGroup>
