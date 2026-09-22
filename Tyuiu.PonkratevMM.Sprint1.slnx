@@ -1,6 +1,12 @@
 <Solution>
-  <Folder Name="/Task0/" />
-  <Project Path="Tyuiu.PonkratevMM.Sprint1.Task0.V6.Lib/Tyuiu.PonkratevMM.Sprint1.Task0.V6.Lib.csproj" />
-  <Project Path="Tyuiu.PonkratevMM.Sprint1.Task0.V6.Test/Tyuiu.PonkratevMM.Sprint1.Task0.V6.Test.csproj" />
-  <Project Path="Tyuiu.PonkratevMM.Sprint1.Task0.V6/Tyuiu.PonkratevMM.Sprint1.Task0.V6.csproj" />
+  <Folder Name="/Task0/">
+    <Project Path="Tyuiu.PonkratevMM.Sprint1.Task0.V6.Lib/Tyuiu.PonkratevMM.Sprint1.Task0.V6.Lib.csproj" />
+    <Project Path="Tyuiu.PonkratevMM.Sprint1.Task0.V6.Test/Tyuiu.PonkratevMM.Sprint1.Task0.V6.Test.csproj" />
+    <Project Path="Tyuiu.PonkratevMM.Sprint1.Task0.V6/Tyuiu.PonkratevMM.Sprint1.Task0.V6.csproj" />
+  </Folder>
+  <Folder Name="/Task1/">
+    <Project Path="Tyuiu.PonkratevMM.Sprint1.Task1.V27.Lib/Tyuiu.PonkratevMM.Sprint1.Task1.V27.Lib.csproj" Id="5a19dcab-4c74-4e68-b360-60ee8271df1a" />
+    <Project Path="Tyuiu.PonkratevMM.Sprint1.Task1.V27.Test/Tyuiu.PonkratevMM.Sprint1.Task1.V27.Test.csproj" Id="f1209270-7335-4da1-934d-c2b2e6ed2eea" />
+    <Project Path="Tyuiu.PonkratevMM.Sprint1.Task1.V27/Tyuiu.PonkratevMM.Sprint1.Task1.V27.csproj" Id="1578b83f-cb5c-440c-83f4-b654d9393651" />
+  </Folder>
 </Solution>

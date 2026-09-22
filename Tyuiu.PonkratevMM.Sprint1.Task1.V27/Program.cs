@@ -1,5 +1,5 @@
-﻿using Tyuiu.PonkratevMM.Sprint1.Task0.V6.Lib;
-namespace Tyuiu.PonkratevMM.Sprint1.Task0.V6
+﻿using Tyuiu.PonkratevMM.Sprint1.Task1.V27.Lib;
+namespace Tyuiu.PonkratevMM.Sprint1.Task0.V27
 {
 
     class Program
@@ -12,26 +12,36 @@ namespace Tyuiu.PonkratevMM.Sprint1.Task0.V6
             Console.WriteLine("*****************************************************");
             Console.WriteLine("* Спринт #1                                         *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                  *");
-            Console.WriteLine("* Задание #0                                        *");
-            Console.WriteLine("* Вариант #6                                        *");
+            Console.WriteLine("* Задание #1                                        *");
+            Console.WriteLine("* Вариант #27                                       *");
             Console.WriteLine("* Выполнил Понкратьев Матвей Максимович | ИИПб-26   *");
             Console.WriteLine("*****************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                          *");
-            Console.WriteLine("* Написать программу, которая вычисляет             *");
-            Console.WriteLine("* выражение 3 * (4 + 1) и печатает резульатат       *");
-            Console.WriteLine("* на экран                                          *");
-            Console.WriteLine("*                                                   *");
+            Console.WriteLine("* Написать программу, которая запрашивает           *");
+            Console.WriteLine("* у пользователя исходные данные, вычисляет         *");
+            Console.WriteLine("* результат по формуле (x + y ) / 2 и печатает его  *");
+            Console.WriteLine("* на экране.                                        *");
             Console.WriteLine("*****************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                  *");
             Console.WriteLine("*****************************************************");
-            Console.WriteLine("* 3 * (4 + 1)                                       *");
+
+
+            double x, y;
+
+            Console.WriteLine("Введите значение x:");
+            x = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение y:");
+            y = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("*****************************************************");
             Console.WriteLine("*РЕЗУЛЬТАТ                                          *");
             Console.WriteLine("*****************************************************");
 
-            Console.WriteLine(ds.Calculate());
+            Console.WriteLine(ds.Calculate(x, y));
 
-            Console.ReadLine(); 
+            Console.ReadLine();
+
 
         }
     }
