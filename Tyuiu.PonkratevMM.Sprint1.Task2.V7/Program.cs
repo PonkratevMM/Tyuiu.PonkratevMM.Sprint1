@@ -32,7 +32,9 @@ namespace Tyuiu.PonkratevMM.Sprint1.Task2.V7
             Console.WriteLine("*РЕЗУЛЬТАТ                                          *");
             Console.WriteLine("*****************************************************");
 
-            Console.WriteLine("Площадь круга = " + Math.Round(ds.CalculateSquareCircle(x),3));
+            double result = ds.CalculateSquareCircle(x);
+
+            Console.WriteLine("Площадь круга = " + result.ToString("F3"));
             Console.ReadKey();
 
 
