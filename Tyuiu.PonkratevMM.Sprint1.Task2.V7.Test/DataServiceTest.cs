@@ -10,8 +10,9 @@ namespace Tyuiu.PonkratevMM.Sprint1.Task2.V7.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 2;
-            var res = ds.CalculateSquareCircle(x);
+            int x = 6;
+            var res = Math.Round(ds.CalculateSquareCircle(x),3);
+            Assert.AreEqual(113.097, res);
 
         }
     }
