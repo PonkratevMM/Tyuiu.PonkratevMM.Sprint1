@@ -13,7 +13,7 @@ namespace Tyuiu.PonkratevMM.Sprint1.Task2.V7
             Console.WriteLine("* Спринт #1                                         *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                  *");
             Console.WriteLine("* Задание #2                                        *");
-            Console.WriteLine("* Вариант #27                                       *");
+            Console.WriteLine("* Вариант #7                                        *");
             Console.WriteLine("* Выполнил Понкратьев Матвей Максимович | ИИПб-26   *");
             Console.WriteLine("*****************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                          *");
@@ -32,7 +32,7 @@ namespace Tyuiu.PonkratevMM.Sprint1.Task2.V7
             Console.WriteLine("*РЕЗУЛЬТАТ                                          *");
             Console.WriteLine("*****************************************************");
 
-            Console.WriteLine("Площадь круга = " + ds.CalculateSquareCircle(x));
+            Console.WriteLine("Площадь круга = " + Math.Round(ds.CalculateSquareCircle(x),3));
             Console.ReadKey();
 
 
