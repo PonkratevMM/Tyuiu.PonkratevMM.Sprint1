@@ -5,7 +5,7 @@ namespace Tyuiu.PonkratevMM.Sprint1.Task2.V7.Lib
     {
         public double CalculateSquareCircle(int value)
         {
-            return Math.Pow(value ,2) * Math.PI;
+            return Math.Round(Math.Pow(value ,2) * Math.PI, 3);
            
         }
     }
